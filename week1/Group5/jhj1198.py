@@ -59,4 +59,3 @@ def cut_polygon():
 
 
 print(cut_polygon())
-
