@@ -1,20 +1,48 @@
-'''
-not yet solved
-입력받고 가능한 케이스 리스트 만들기
-3s 0b 바로 그 위치
-2s 0b 2개 정답. 1개 잘못된 숫자
-1s 2b 1개 정답 2개 서로 자리 바뀜
-1s 1b 1개 정답 1개 자리 바뀜 1개 잘못된 숫자
-1s 0b 1개 정답 2개 잘못된 숫자
-0s 3b 3개 서로 자리 바뀜(2가지 케이스 가능)
-0s 2b 2개 서로 자리 바뀜, 1개 잘못된 숫자
-0s 1b 1개 자리 바뀜 2개 잘못된 숫자
-0s 0b 3개 잘못된 숫자
-기존 답 가능 리스트 비어있으면 그대로 붙여넣기
-이미 차 있으면 두 리스트 중 교집합만 남기기 ~ apeend로 하면 정렬된 상태로 나옴
-len(answer_list) 반환
-'''
+def strike(n, N):
+    rslt = 0
 
-def guess_num_of_answer():
+    if (n % 10 == N % 10): rslt += 1
+    if ((n // 10) % 10 == (N // 10) % 10): rslt += 1
+    if (n // 100 == N // 100): rslt += 1
 
+    return rslt
 
+def ball(n, N):
+    arr1 = [n // 100, (n // 10) % 10, n % 10]
+    arr2 = [N // 100, (N // 10) % 10, N % 10]
+    rslt = 0
+
+    if (arr1[0] == arr2[1] or arr1[0] == arr2[2]): rslt += 1
+    if (arr1[1] == arr2[0] or arr1[1] == arr2[2]): rslt += 1
+    if (arr1[2] == arr2[0] or arr1[2] == arr2[1]): rslt += 1
+
+    return rslt
+
+# 123부터 999까지 배열 만들기
+arr = []
+a = 123
+for i in range(889):
+    a1 = a // 100
+    a2 = (a // 10) % 10
+    a3 = a % 10
+
+    if a1 == 0 or a2 == 0 or a3 == 0: arr.append(-1)
+    elif a1 == a2 or a1 == a3 or a2 == a3: arr.append(-1)
+    else: arr.append(a)
+
+    a += 1
+
+# 스트라이크와 볼 개수 비교하여 다르면 제외
+n = int(input())
+for i in range(n):
+    N, s, b = map(int, input().split())
+    for j in range(889):
+        if arr[j] != -1:
+            S = strike(arr[j], N)
+            B = ball(arr[j], N)
+            if s != S or b != B: arr[j] = -1
+
+rslt = 0
+for i in range(889):
+    if arr[i] != -1: rslt += 1
+print(rslt)
