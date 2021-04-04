@@ -2,11 +2,10 @@ n = int(input())
 answer = [0] * n
 strike = [0] * n
 ball = [0] * n
+count = 0
 
 for i in range(0, n):
     answer[i], strike[i], ball[i] = map(int, input().split())
-
-count = 0
 
 for i in range(1, 10):
     for j in range(1, 10):
