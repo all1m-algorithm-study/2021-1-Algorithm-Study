@@ -30,5 +30,4 @@ for i in range(1, 10):
                     break
 
             if(correct): count += 1
-
 print(count)
