@@ -1,9 +1,12 @@
 # 2021-1-Algorithm-Study
 2021년 1학기 알고리즘 스터디
 
-💖깃초보자를 위한 스터디원 현규님의 깃 가이드!💖
+💖깃초보자를 위한 스터디원 분들이 직접 작성한 깃 가이드!💖
 
-[알림 알고리즘 스터디 깃허브 가이드](https://www.notion.so/152dd8be8617409785c5744985bd8dd0)
+[깃 명령어를 이용해보자! by.그룹 1조의 현규님](https://www.notion.so/152dd8be8617409785c5744985bd8dd0)
+
+[깃 명령어는 너무 어려워! 깃 데스크탑 설치하고 Eeeeazy하게 PR하는 법 by.그룹 4조의 태희님](https://www.notion.so/Github-Desktop-PR-7dd3ab0a7cdf49b08ca5317fa35f32e2)
+
 
 
 ## 2021 1학기 정규 세미나 2주차
