@@ -1,3 +1,7 @@
+'''
+분해합
+'''
+
 def decomposite_num(num):
     answer = num
     while num > 0:
