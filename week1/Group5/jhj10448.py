@@ -11,8 +11,6 @@ def check_eureka(num, lst_trinum):
     return 0
 
 
-
-
 def check_eurekanum():
 
     num_cases = int(input())
