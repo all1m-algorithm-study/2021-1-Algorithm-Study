@@ -18,6 +18,8 @@ void solve() {
 	cin >> N;
 	int temp = 0;
 	int tri[1000];
+
+	//삼각수를 미리 계산해둡니다. --> O(n)
 	for (int i = 0; i < 1000; i++) {
 		tri[i] = (i * (i + 1)) / 2;
 	}
@@ -34,9 +36,9 @@ void solve() {
 						break;
 					}
 				}
-				if (result == true) break;
+				//if (result == true) break;
 			}
-			if (result == true) break;
+			//if (result == true) break;
 		}
 
 		if (result == true) {
