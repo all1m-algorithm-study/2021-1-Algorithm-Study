@@ -23,3 +23,22 @@
 1. [오목](https://www.acmicpc.net/problem/2615) : 최문기 학우(16) 발표
 2. [십자가 2개 놓기](https://www.acmicpc.net/problem/17085) : 자율 발표
 3. [부분수열의 합](https://www.acmicpc.net/problem/1182) : 자율 발표
+
+
+
+## 2021 1학기 정규 세미나 3주차
+
+주제 : 그리디 알고리즘
+
+### 연습문제
+1. [보물](https://www.acmicpc.net/problem/1026) : Group6 발표
+2. [ATM](https://www.acmicpc.net/problem/11399) : Group7 발표
+3. [주유소](https://www.acmicpc.net/problem/13305) : Group8 발표
+4. [수리공 항승](https://www.acmicpc.net/problem/1449) : Group9 발표
+5. [로프](https://www.acmicpc.net/problem/2217) : Group10 발표
+### 도전문제
+1. [센서](https://www.acmicpc.net/problem/2212) : 발표X
+2. [신입 사원](https://www.acmicpc.net/problem/1946) : 자율 발표
+3. [카드 합체 놀이](https://www.acmicpc.net/problem/15903) : 발표X
+4. [단어 수학](https://www.acmicpc.net/problem/1339) : 자율 발표
+5. [저울](https://www.acmicpc.net/problem/2437) : 자율 발표
