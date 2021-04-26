@@ -1,6 +1,7 @@
 # 2021-1-Algorithm-Study
 2021년 1학기 알고리즘 스터디
 
+
 💖깃초보자를 위한 스터디원 분들이 직접 작성한 깃 가이드💖
 
 [깃 명령어를 이용해보자! by.그룹 1조의 현규님](https://www.notion.so/152dd8be8617409785c5744985bd8dd0)
@@ -42,3 +43,4 @@
 3. [카드 합체 놀이](https://www.acmicpc.net/problem/15903) : 발표X
 4. [단어 수학](https://www.acmicpc.net/problem/1339) : 자율 발표
 5. [저울](https://www.acmicpc.net/problem/2437) : 자율 발표
+
