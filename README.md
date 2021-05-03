@@ -1,6 +1,7 @@
 # 2021-1-Algorithm-Study
 2021년 1학기 알고리즘 스터디
 
+
 💖깃초보자를 위한 스터디원 분들이 직접 작성한 깃 가이드💖
 
 [깃 명령어를 이용해보자! by.그룹 1조의 현규님](https://www.notion.so/152dd8be8617409785c5744985bd8dd0)
@@ -9,7 +10,7 @@
 
 
 
-## 2021 1학기 정규 세미나 2주차
+## 2021 1학기 정규 세미나 2주차(문제풀이 1주차)
 
 주제 : 완전 탐색
 
@@ -26,7 +27,7 @@
 
 
 
-## 2021 1학기 정규 세미나 3주차
+## 2021 1학기 정규 세미나 3주차(문제풀이 2주차)
 
 주제 : 그리디 알고리즘
 
@@ -42,3 +43,20 @@
 3. [카드 합체 놀이](https://www.acmicpc.net/problem/15903) : 발표X
 4. [단어 수학](https://www.acmicpc.net/problem/1339) : 자율 발표
 5. [저울](https://www.acmicpc.net/problem/2437) : 자율 발표
+
+
+## 2021 1학기 정규 세미나 4주차(문제풀이 3주차)
+
+주제 : 재귀함수
+
+### 연습문제
+1. [칸토어 집합](https://www.acmicpc.net/problem/4779) : Group1 발표
+2. [로또](https://www.acmicpc.net/problem/6603) : Group2 발표
+3. [종이의 개수](https://www.acmicpc.net/problem/1780) : Group3 발표
+4. [Z](https://www.acmicpc.net/problem/1074) : Group4 발표
+5. [쿼드트리](https://www.acmicpc.net/problem/1992) : Group5 발표
+### 도전문제
+1. [하노이 탑 이동 순서](https://www.acmicpc.net/problem/11729) : 자율 발표
+2. [별 찍기 - 11](https://www.acmicpc.net/problem/2448) : 자율 발표
+3. [압축](https://www.acmicpc.net/problem/1662) : 자율 발표
+
