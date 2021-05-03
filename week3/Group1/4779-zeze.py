@@ -11,4 +11,4 @@ def recursion(num):
 # 입력 받기
 for num in sys.stdin:
   recursion(3 ** int(num))
-  print()
+  print() 
