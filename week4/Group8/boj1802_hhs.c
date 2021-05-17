@@ -21,6 +21,7 @@ int main(void) {
 		if (pFoldLen % 2 == 0)
 			printf("NO\n");
 		else if (pFoldLen == 1)
+		else if (pFoldLen == 1)//1일땐 항상 true
 			printf("YES\n");
 		else {
 			result = DFold(paperFold, pFoldLen);
@@ -65,4 +66,3 @@ int DFold(char* str, int strLen) {
 	if (strBool == 1 && mid > 2)
 		return DFold(str, mid);
 	else return strBool;
-}
