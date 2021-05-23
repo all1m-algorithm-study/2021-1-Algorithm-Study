@@ -93,3 +93,15 @@
 3. [좋은 친구](https://www.acmicpc.net/problem/3078) : 자율 발표
 4. [오큰수](https://www.acmicpc.net/problem/17298) : 자율 발표
 5. [오아시스 재결합](https://www.acmicpc.net/problem/3015) : 발표X
+
+
+## 문제풀이 스터디 week6
+
+주제 : 기초 그래프 이론, 스택, 큐, 덱 복습
+
+### 연습문제
+1. [바이러스](https://www.acmicpc.net/problem/2606) : Group6 발표
+2. [연결 요소의 개수](https://www.acmicpc.net/problem/11724) : Group7 발표
+3. [결혼식](https://www.acmicpc.net/problem/5567) : Group8 발표
+4. [도키도키 간식드리미](https://www.acmicpc.net/problem/12789) : Group9 발표
+5. [천재 수학자 성필](https://www.acmicpc.net/problem/15815) : Group10 발표
