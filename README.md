@@ -105,3 +105,19 @@
 3. [결혼식](https://www.acmicpc.net/problem/5567) : Group8 발표
 4. [도키도키 간식드리미](https://www.acmicpc.net/problem/12789) : Group9 발표
 5. [천재 수학자 성필](https://www.acmicpc.net/problem/15815) : Group10 발표
+
+
+## 문제풀이 스터디 week7
+
+주제 : DFS
+
+### 연습문제
+1. [섬의 개수](https://www.acmicpc.net/problem/4963) : Group1 발표
+2. [트리의 부모 찾기](https://www.acmicpc.net/problem/11725) : Group2 발표
+3. [촌수계산](https://www.acmicpc.net/problem/2644) : Group3 발표
+4. [안전 영역](https://www.acmicpc.net/problem/2468) : Group4 발표
+5. [침투](https://www.acmicpc.net/problem/13565) : Group5 발표
+### 도전문제
+1. [텀 프로젝트](https://www.acmicpc.net/problem/9466) : 자율 발표
+2. [알파벳](https://www.acmicpc.net/problem/1987) : 자율 발표
+3. [빙산](https://www.acmicpc.net/problem/2573) : 자율 발표
