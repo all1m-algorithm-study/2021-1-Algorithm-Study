@@ -1,0 +1,31 @@
+
+#결혼식
+import sys
+
+n = int(input())
+m = int(input())
+
+adj = [[]for i in range(n+1)]
+
+for i in range(m):
+    a, b = map(int,sys.stdin.readline().split())
+
+    adj[a].append(b)
+    adj[b].append(a)
+
+invited = []
+
+for i in range(n+1):
+    if i in adj[1]:
+        invited.append(i)
+
+for i in adj[1]:
+    for j in adj[i]:
+        if j not in invited:
+            invited.append(j)
+            
+if 1 in invited:
+    invited.pop()
+
+
+print(len(invited))

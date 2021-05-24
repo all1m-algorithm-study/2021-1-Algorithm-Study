@@ -1,0 +1,26 @@
+# 연결 요소의 개수
+import sys
+
+def dfs(n):
+    visited[n] = 1
+    for i in adj[n]:
+        if visited[i] != 1:
+            dfs(i)
+
+n, m = map(int,input().split())
+visited = [0 for i in range(n+1)]
+adj = [[] for i in range(n+1)]
+
+for i in range(m):
+    a, b = map(int,sys.stdin.readline().split())
+    adj[a].append(b)
+    adj[b].append(a)
+
+cnt = 0
+
+for i in range(1,n+1):
+    if visited[i] == 0:
+        dfs(i)
+        cnt += 1
+print(cnt)
+
