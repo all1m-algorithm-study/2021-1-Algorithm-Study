@@ -12,7 +12,6 @@ int main() {
 	cin.tie(NULL);
 	cout.tie(NULL);
 
-
 	int a[1000000];
 	int b;
 	cin >> b;
@@ -23,6 +22,5 @@ int main() {
 	for (int i = 0; i < b; i++) {
 		cout << a[i] << "\n";
 	}
-
 
 }
