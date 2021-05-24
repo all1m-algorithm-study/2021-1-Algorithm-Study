@@ -10,7 +10,7 @@
 
 
 
-## 2021 1학기 정규 세미나 2주차(문제풀이 1주차)
+## 문제풀이 스터디 week1
 
 주제 : 완전 탐색
 
@@ -27,7 +27,7 @@
 
 
 
-## 2021 1학기 정규 세미나 3주차(문제풀이 2주차)
+## 문제풀이 스터디 week2
 
 주제 : 그리디 알고리즘
 
@@ -45,7 +45,7 @@
 5. [저울](https://www.acmicpc.net/problem/2437) : 자율 발표
 
 
-## 2021 1학기 정규 세미나 4주차(문제풀이 3주차)
+## 문제풀이 스터디 week3
 
 주제 : 재귀함수
 
@@ -60,3 +60,64 @@
 2. [별 찍기 - 11](https://www.acmicpc.net/problem/2448) : 자율 발표
 3. [압축](https://www.acmicpc.net/problem/1662) : 자율 발표
 
+
+## 문제풀이 스터디 week4
+
+주제 : 분할정복
+
+### 연습문제
+1. [222-풀링](https://www.acmicpc.net/problem/17829) : Group6 발표
+2. [색종이 만들기](https://www.acmicpc.net/problem/2630) : Group7 발표
+3. [종이 접기](https://www.acmicpc.net/problem/1802) : Group8 발표
+4. [투에-모스 문자열](https://www.acmicpc.net/problem/18222) : Group9 발표
+5. [박스 채우기](https://www.acmicpc.net/problem/1493) : Group10 발표
+### 도전문제
+1. [같은 수로 만들기](https://www.acmicpc.net/problem/2374) : 자율 발표
+2. [행렬 제곱](https://www.acmicpc.net/problem/10830) : 자율 발표
+3. [수열](https://www.acmicpc.net/problem/1588) : 자율 발표
+
+
+## 문제풀이 스터디 week5
+
+주제 : 스택, 큐, 덱
+
+### 연습문제
+1. [괄호의 값](https://www.acmicpc.net/problem/2504) : Group1 발표
+2. [후위 표기식2](https://www.acmicpc.net/problem/1935) : Group2 발표
+3. [요세푸스 문제 0](https://www.acmicpc.net/problem/11866) : Group3 발표
+4. [프린터 큐](https://www.acmicpc.net/problem/1966) : Group4 발표
+5. [회전하는 큐](https://www.acmicpc.net/problem/1021) : Group5 발표
+### 도전문제
+1. [후위 표기식](https://www.acmicpc.net/problem/1918) : 자율 발표
+2. [AC](https://www.acmicpc.net/problem/5430) : 자율 발표
+3. [좋은 친구](https://www.acmicpc.net/problem/3078) : 자율 발표
+4. [오큰수](https://www.acmicpc.net/problem/17298) : 자율 발표
+5. [오아시스 재결합](https://www.acmicpc.net/problem/3015) : 발표X
+
+
+## 문제풀이 스터디 week6
+
+주제 : 기초 그래프 이론, 스택, 큐, 덱 복습
+
+### 연습문제
+1. [바이러스](https://www.acmicpc.net/problem/2606) : Group6 발표
+2. [연결 요소의 개수](https://www.acmicpc.net/problem/11724) : Group7 발표
+3. [결혼식](https://www.acmicpc.net/problem/5567) : Group8 발표
+4. [도키도키 간식드리미](https://www.acmicpc.net/problem/12789) : Group9 발표
+5. [천재 수학자 성필](https://www.acmicpc.net/problem/15815) : Group10 발표
+
+
+## 문제풀이 스터디 week7
+
+주제 : DFS
+
+### 연습문제
+1. [섬의 개수](https://www.acmicpc.net/problem/4963) : Group1 발표
+2. [트리의 부모 찾기](https://www.acmicpc.net/problem/11725) : Group2 발표
+3. [촌수계산](https://www.acmicpc.net/problem/2644) : Group3 발표
+4. [안전 영역](https://www.acmicpc.net/problem/2468) : Group4 발표
+5. [침투](https://www.acmicpc.net/problem/13565) : Group5 발표
+### 도전문제
+1. [텀 프로젝트](https://www.acmicpc.net/problem/9466) : 자율 발표
+2. [알파벳](https://www.acmicpc.net/problem/1987) : 자율 발표
+3. [빙산](https://www.acmicpc.net/problem/2573) : 자율 발표
