@@ -15,7 +15,7 @@ void init() {
 
 long long run(int iter) {
 	//base case
-	if (iter == 1) return A;
+	if (iter == 1) return A % C;
 	long long tmp_ans;
 	long long devide;
 
