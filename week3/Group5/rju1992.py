@@ -1,30 +1,29 @@
-def quadTree(data, n):
-    c = check(data)
+def quadTree(data, n, x, y):
+    c = check(data, n, x, y)
+
     if(c != ""):
         return c
     else:
         s = "("
         n = n // 2
-        for i in range(0, 2):
-            for j in range(0, 2):
-                tmp = ""
-                for k in range(0, n):
-                    l = i * n * n * 2 + j * n + k * n * 2
-                    tmp += data[l:l + n]
-                s += quadTree(tmp, n)
+        s += quadTree(data, n, x, y)
+        s += quadTree(data, n, x + n, y)
+        s += quadTree(data, n, x, y + n)
+        s += quadTree(data, n, x + n, y + n)
         s += ")"
         return s
 
-def check(data):
-    d = data[0]
-    for i in data:
-        if(d != i): return ""
+def check(data, n, x, y):
+    d = data[y][x]
+    for i in range(y, y + n):
+        for j in range(x, x + n):
+            if(d != data[i][j]): return ""
     return d
 
 n = int(input())
-data = ""
+data = []
 
 for i in range(0, n):
-    data += input()
+    data.append(input())
 
-print(quadTree(data, n))
+print(quadTree(data, n, 0, 0))

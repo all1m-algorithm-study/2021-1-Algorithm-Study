@@ -1,0 +1,28 @@
+# 바이러스
+
+import sys
+
+n = int(input())
+adj = [[]for i in range(n+1)]
+
+for i in range(int(input())):
+    a, b = map(int,sys.stdin.readline().split())
+    adj[a].append(b)
+    adj[b].append(a)
+
+def bfs(n,adj):
+    visited = [0 for i in range(n+1)]
+    q = [1]
+    visited[1] = 1
+
+    while q:
+        now = q.pop(0)
+
+        for i in adj[now]:
+            if visited[i] != 1:
+                q.append(i)
+                visited[i] = 1
+
+    return(sum(visited))
+
+print(bfs(n,adj)-1)   
