@@ -6,4 +6,3 @@ def dec2bin(n):
 
 n = int(input(''))
 dec2bin(n)
-    
