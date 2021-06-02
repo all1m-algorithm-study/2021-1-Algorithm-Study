@@ -1,0 +1,35 @@
+import sys
+from collections import deque
+from math import factorial as f
+input = sys.stdin.readline
+sys.setrecursionlimit(10 ** 6)
+ok=0
+def bfs(l,a,cnt,n):
+    global ok
+    for i in range(n):
+        if l[i][0] == a:
+            if l[i][1] == y:
+                    print(cnt)
+                    ok=1
+                    return
+            else:
+                    bfs(l[:i]+l[i+1:],l[i][1],cnt+1,n-1)
+                    
+        elif l[i][1] == a:
+            if l[i][0] == y:
+                    print(cnt)
+                    ok=1
+                    return
+            else:
+                    bfs(l[:i]+l[i+1:],l[i][0],cnt+1,n-1)
+        
+
+
+N = int(input())
+
+x, y = map(int, input().split())
+edge = int(input())
+li = [list(map(int,input().split())) for _ in range(edge)]
+bfs(li,x,1,edge)
+if ok==0:
+    print(-1)
