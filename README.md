@@ -121,3 +121,19 @@
 1. [텀 프로젝트](https://www.acmicpc.net/problem/9466) : 자율 발표
 2. [알파벳](https://www.acmicpc.net/problem/1987) : 자율 발표
 3. [빙산](https://www.acmicpc.net/problem/2573) : 자율 발표
+
+
+## 문제풀이 스터디 week8
+
+주제 : BFS
+
+### 연습문제
+1. [물통](https://www.acmicpc.net/problem/2251) : Group6 발표
+2. [숨바꼭질](https://www.acmicpc.net/problem/1697) : Group7 발표
+3. [유기농 배추](https://www.acmicpc.net/problem/1012) : Group8 발표
+4. [토마토](https://www.acmicpc.net/problem/7576) : Group9 발표
+5. [단지번호붙이기](https://www.acmicpc.net/problem/2667) : Group10 발표
+### 도전문제
+1. [벽 부수고 이동하기](https://www.acmicpc.net/problem/2206) : 자율 발표
+2. [이분 그래프](https://www.acmicpc.net/problem/1707) : 자율 발표
+3. [불!](https://www.acmicpc.net/problem/4179) : 자율 발표
