@@ -4,20 +4,20 @@ input = stdin.readline
 
 s, y = list(map(int,input().split()))
 
-def bfs (start, target):
-    vst = set([start])
-    q = deque([(start, 0)])
 
-    while q:
-        curr, dist = q.popleft()
-        if curr == target:
-            return dist
-        for nxt in (curr*2, curr+1, curr-1):
-            if nxt not in vst:
-                vst.add(nxt)
-                q.append((nxt, dist+1))
+vst = set([s])
+q = deque([(s, 0)])
 
-print(bfs(s,y))
+while q:
+    curr, dist = q.popleft()
+    if curr == y:
+        print(dist)
+    for nxt in (curr*2, curr+1, curr-1):
+        if 0<= nxt <= 100000 and nxt not in vst:
+            vst.add(nxt)
+            q.append((nxt, dist+1))
+
+
 
 
 
